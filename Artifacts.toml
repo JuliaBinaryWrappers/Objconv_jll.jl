@@ -1,113 +1,143 @@
 [[Objconv]]
-arch = "i686"
-git-tree-sha1 = "26b6e923e1338f2da431635d4a37deda87afff21"
-libc = "musl"
-os = "linux"
-
-    [[Objconv.download]]
-    sha256 = "6b2b0a3359cfdde8d2afbd219e0967709ca6900098c897a130bac8f326b41f40"
-    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.0+0/Objconv.v2.49.0.i686-linux-musl.tar.gz"
-[[Objconv]]
 arch = "aarch64"
-git-tree-sha1 = "cb6b7bd3eef3905cc9855e09ad11203f2f8146fc"
-libc = "musl"
-os = "linux"
-
-    [[Objconv.download]]
-    sha256 = "915fafde9e0378c2a0a723cde9ce26be0061b8fe39142fa89fcce28e25cdc7cf"
-    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.0+0/Objconv.v2.49.0.aarch64-linux-musl.tar.gz"
-[[Objconv]]
-arch = "i686"
-git-tree-sha1 = "39796d126b6ea819a151310d3aa458f128bb7e68"
-os = "windows"
-
-    [[Objconv.download]]
-    sha256 = "b82d1a9e80ba4505db527b692e4a3d58e1d3dc4bf1bea6bb7d147490c540f2a9"
-    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.0+0/Objconv.v2.49.0.i686-w64-mingw32.tar.gz"
-[[Objconv]]
-arch = "x86_64"
-git-tree-sha1 = "63172bd3f6faa3ace5b36ca7362f51aee14ba202"
-os = "windows"
-
-    [[Objconv.download]]
-    sha256 = "73aa70f4bab424b4759bd234ef48de72725a8747ed2f6f9dad90058c29141466"
-    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.0+0/Objconv.v2.49.0.x86_64-w64-mingw32.tar.gz"
-[[Objconv]]
-arch = "armv7l"
-git-tree-sha1 = "6e90ed1724a732380496263cfd7086508f267f81"
-libc = "glibc"
-os = "linux"
-
-    [[Objconv.download]]
-    sha256 = "399460c044538a833df60d12ecf9372f8bfa134c3e2eed7e65ddbfaaa22ee261"
-    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.0+0/Objconv.v2.49.0.armv7l-linux-gnueabihf.tar.gz"
-[[Objconv]]
-arch = "armv7l"
-git-tree-sha1 = "01fb7a0cded76e3ba1cc87f8c97dade9a54d3e00"
-libc = "musl"
-os = "linux"
-
-    [[Objconv.download]]
-    sha256 = "d4864a5a7b8ca2e13efe0cd642ee1cdf742a030911678f9c21bea9f295fe0fc8"
-    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.0+0/Objconv.v2.49.0.armv7l-linux-musleabihf.tar.gz"
-[[Objconv]]
-arch = "i686"
-git-tree-sha1 = "8ea5b0c10afe1817ea2ea81ff039cd01bcd6325b"
-libc = "glibc"
-os = "linux"
-
-    [[Objconv.download]]
-    sha256 = "c20e5272a976b7945430c64c08d104575c6a3f2e6f4341e450f38a860cc15f06"
-    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.0+0/Objconv.v2.49.0.i686-linux-gnu.tar.gz"
-[[Objconv]]
-arch = "x86_64"
-git-tree-sha1 = "15eff7ec20f99870a3e0b8f827508d66ad06bb2c"
-libc = "glibc"
-os = "linux"
-
-    [[Objconv.download]]
-    sha256 = "09690386e654472da548979ab3c5663d920f17352c86a232069cc04d80518624"
-    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.0+0/Objconv.v2.49.0.x86_64-linux-gnu.tar.gz"
-[[Objconv]]
-arch = "powerpc64le"
-git-tree-sha1 = "09c0d1ab6f606c0766d85bd0c65c180db7a2df56"
-libc = "glibc"
-os = "linux"
-
-    [[Objconv.download]]
-    sha256 = "57a59cc266d72d4eb8f006296965ec41f6f1e4b4604ebf25f3e8500f9d71a449"
-    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.0+0/Objconv.v2.49.0.powerpc64le-linux-gnu.tar.gz"
-[[Objconv]]
-arch = "x86_64"
-git-tree-sha1 = "935c4178673a01d0302d17795a49a58377ef391b"
+git-tree-sha1 = "be24c2c4a23a057e08644ef0951e26045cb0b3a8"
 os = "macos"
 
     [[Objconv.download]]
-    sha256 = "f80ad4a4e179b2da43acacb22b51a0c84b20f94d991a896ecad19459eef5c071"
-    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.0+0/Objconv.v2.49.0.x86_64-apple-darwin14.tar.gz"
+    sha256 = "39bf6c297eb775b392b91271616b2d3368e7f7534eef477e6b31f0e82e4a30d1"
+    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.1+0/Objconv.v2.49.1.aarch64-apple-darwin.tar.gz"
 [[Objconv]]
 arch = "aarch64"
-git-tree-sha1 = "3c15a09330c7161755e04f7cf5b1846c6c43f8e2"
+git-tree-sha1 = "b2f526a7f43104d3f64ead30ce8ee5058a0c3f34"
 libc = "glibc"
 os = "linux"
 
     [[Objconv.download]]
-    sha256 = "6746476fd20e643bbe9147e0b81cb5d6d187bde717637f52f51bae2743090d47"
-    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.0+0/Objconv.v2.49.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "337a623d2eac64c7053b5dc4a8f5f0304973c91f357b168fb7fa734c72b2ffff"
+    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.1+0/Objconv.v2.49.1.aarch64-linux-gnu.tar.gz"
 [[Objconv]]
-arch = "x86_64"
-git-tree-sha1 = "6ce880d93173a4897b8f893e7a674d5e8f62ff05"
-os = "freebsd"
-
-    [[Objconv.download]]
-    sha256 = "0e22e67241482ba9f59952cb473c96b020c547bd7c4f4f10501d0ea0235160cc"
-    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.0+0/Objconv.v2.49.0.x86_64-unknown-freebsd11.1.tar.gz"
-[[Objconv]]
-arch = "x86_64"
-git-tree-sha1 = "22e6553e6ac5e3067205f5f7b6f5aad2bc9b0614"
+arch = "aarch64"
+git-tree-sha1 = "68dbe2f19ea02dd052ccfe22d99bbe715d1a01ca"
 libc = "musl"
 os = "linux"
 
     [[Objconv.download]]
-    sha256 = "646fce55e18a3a0137f3e25b4d425dfafede111eda12c4dbcbab2956ebf0219e"
-    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.0+0/Objconv.v2.49.0.x86_64-linux-musl.tar.gz"
+    sha256 = "1686c622d571aba67c3bd87fba21be271c30d60c63a44287077895bfc8acc9ba"
+    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.1+0/Objconv.v2.49.1.aarch64-linux-musl.tar.gz"
+[[Objconv]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "83199b6418d64fc2e41ac17c1424de56680c9d9d"
+libc = "glibc"
+os = "linux"
+
+    [[Objconv.download]]
+    sha256 = "edae9f5309595def94d492794aa5d93ffede9addb4dad8bcfb3cf41938adc6a4"
+    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.1+0/Objconv.v2.49.1.armv6l-linux-gnueabihf.tar.gz"
+[[Objconv]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "a9d61f8f2da281315369a07fddad18109e2e7b85"
+libc = "musl"
+os = "linux"
+
+    [[Objconv.download]]
+    sha256 = "dde24277425b8b1a9ff95348b14ded545eab3166983897311e4db954e9c55738"
+    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.1+0/Objconv.v2.49.1.armv6l-linux-musleabihf.tar.gz"
+[[Objconv]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "fba591f3aa4caba113241e249f9d9a65eb83eb51"
+libc = "glibc"
+os = "linux"
+
+    [[Objconv.download]]
+    sha256 = "24297bc60f444306b8711ed275f14a7890bf19f37c7e553e5e7754f7bd021e91"
+    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.1+0/Objconv.v2.49.1.armv7l-linux-gnueabihf.tar.gz"
+[[Objconv]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "3c447e90c6b2be8b101a278304201359cc42b1f0"
+libc = "musl"
+os = "linux"
+
+    [[Objconv.download]]
+    sha256 = "3f4b9b638d31f93b109bc43f35a6bac35302aa2719b4c525f3b750d2d27a4eb5"
+    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.1+0/Objconv.v2.49.1.armv7l-linux-musleabihf.tar.gz"
+[[Objconv]]
+arch = "i686"
+git-tree-sha1 = "756fb696da79b3d5bd1c3128e8348cb338989d24"
+libc = "glibc"
+os = "linux"
+
+    [[Objconv.download]]
+    sha256 = "fcc0d25b4332e6513da1504788c71d04e42f96d21ca682280ec7177a8a8e5a54"
+    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.1+0/Objconv.v2.49.1.i686-linux-gnu.tar.gz"
+[[Objconv]]
+arch = "i686"
+git-tree-sha1 = "255cbce2e95ce9c4f4b1cc596f6e8785977a8a89"
+libc = "musl"
+os = "linux"
+
+    [[Objconv.download]]
+    sha256 = "a62713a4d4246645994f0b44f48144527b5ac0e8d54cce1a24aab65ea176ce63"
+    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.1+0/Objconv.v2.49.1.i686-linux-musl.tar.gz"
+[[Objconv]]
+arch = "i686"
+git-tree-sha1 = "69465c753729ffc7f29b42d40888403ff3e939e7"
+os = "windows"
+
+    [[Objconv.download]]
+    sha256 = "931e24e9290bc09ebbf612aab48351017e1457dd6509fcd60beac5157ba55fe3"
+    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.1+0/Objconv.v2.49.1.i686-w64-mingw32.tar.gz"
+[[Objconv]]
+arch = "powerpc64le"
+git-tree-sha1 = "24c177a7a9f318a9c0ff3775bb179a89c10a7288"
+libc = "glibc"
+os = "linux"
+
+    [[Objconv.download]]
+    sha256 = "78e11ccf6650d2fd8532f576b47931d27850b292fe6bd53f038e732941eeefd9"
+    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.1+0/Objconv.v2.49.1.powerpc64le-linux-gnu.tar.gz"
+[[Objconv]]
+arch = "x86_64"
+git-tree-sha1 = "eead2dbb985274428ecece8ee872e7793aa2a3da"
+os = "macos"
+
+    [[Objconv.download]]
+    sha256 = "599cb64007bb4e3e30f775188aa4e6c2782c090afc168fe13fb7f37ce93f14ef"
+    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.1+0/Objconv.v2.49.1.x86_64-apple-darwin.tar.gz"
+[[Objconv]]
+arch = "x86_64"
+git-tree-sha1 = "4bdb1438db73afee3c728816806b4b51d636b8c0"
+libc = "glibc"
+os = "linux"
+
+    [[Objconv.download]]
+    sha256 = "e357ebe512d9d8586143fbcc51b95bd50c687d95fa1dc583b6df4c75b69cb0da"
+    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.1+0/Objconv.v2.49.1.x86_64-linux-gnu.tar.gz"
+[[Objconv]]
+arch = "x86_64"
+git-tree-sha1 = "80ad5b0a183b8fe04055ea861b795527126588b7"
+libc = "musl"
+os = "linux"
+
+    [[Objconv.download]]
+    sha256 = "9738ce54a544ee193b8a9b985c29f5b85c0aa82f0f760a882d4f04c1c8709714"
+    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.1+0/Objconv.v2.49.1.x86_64-linux-musl.tar.gz"
+[[Objconv]]
+arch = "x86_64"
+git-tree-sha1 = "4cf3b10a8dd3fe6d301facab556e6cae4bc9be0a"
+os = "freebsd"
+
+    [[Objconv.download]]
+    sha256 = "2f88fcf7715e9812df6ecff8a6aac4137c64e5c6a8ffe08ada73aeebcb85f5c3"
+    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.1+0/Objconv.v2.49.1.x86_64-unknown-freebsd.tar.gz"
+[[Objconv]]
+arch = "x86_64"
+git-tree-sha1 = "e1d5d499db25e446e397af274d601d24a6879fc8"
+os = "windows"
+
+    [[Objconv.download]]
+    sha256 = "9c1411010ce0dd9191a7f9b678bcffac7b79e7a1d1f7974dcbf1c63ad556f182"
+    url = "https://github.com/JuliaBinaryWrappers/Objconv_jll.jl/releases/download/Objconv-v2.49.1+0/Objconv.v2.49.1.x86_64-w64-mingw32.tar.gz"
